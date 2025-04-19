@@ -1,0 +1,51 @@
+{
+    "jobId": 2,
+    "rewardsAddress": "0xd1F0c3F6FCf756f486276E4F1CAe572784bDB14E",
+    "gasKey": "0x9fda92bd4fb11108438a426ec845debfd9f4e88c6aa3fcad69ca3f4560ba2a22",
+    "frequency": "*/1 * * * *",
+    "isMainnet": false,
+    "apiDetails": {
+      "url": "https://ljo49t3ibj.execute-api.eu-west-3.amazonaws.com/dev/totalStakedBudsAcrossAllChains",
+      "method": "GET",
+      "headers": null,
+      "data": null
+    },
+    "outputs": [
+        {
+          "contractAddress": "0x9e014aAE147D85d5764641e773dE9C29aC0141e9",
+          "chain": "berachain",
+          "tokenAddress": "0x874cD9Add18d8F09cf75a094Adb7Aa6bcF428d8D",
+          "function": "setGlobalLiquidity(uint256)"
+        },
+        {
+          "contractAddress": "0x9e014aAE147D85d5764641e773dE9C29aC0141e9",
+          "chain": "core",
+          "tokenAddress": "0x874cD9Add18d8F09cf75a094Adb7Aa6bcF428d8D",
+          "function": "setGlobalLiquidity(uint256)"
+        },
+        {
+          "contractAddress": "0x9e014aAE147D85d5764641e773dE9C29aC0141e9",
+          "chain": "polygon",
+          "tokenAddress": "0x874cD9Add18d8F09cf75a094Adb7Aa6bcF428d8D",
+          "function": "setGlobalLiquidity(uint256)"
+        },
+        {
+          "contractAddress": "0x9e014aAE147D85d5764641e773dE9C29aC0141e9",
+          "chain": "arb",
+          "tokenAddress": "0x874cD9Add18d8F09cf75a094Adb7Aa6bcF428d8D",
+          "function": "setGlobalLiquidity(uint256)"
+        },
+        {
+          "contractAddress": "0x9e014aAE147D85d5764641e773dE9C29aC0141e9",
+          "chain": "avax",
+          "tokenAddress": "0x874cD9Add18d8F09cf75a094Adb7Aa6bcF428d8D",
+          "function": "setGlobalLiquidity(uint256)"
+        },
+        {
+          "contractAddress": "0x9e014aAE147D85d5764641e773dE9C29aC0141e9",
+          "chain": "bsc",
+          "tokenAddress": "0x874cD9Add18d8F09cf75a094Adb7Aa6bcF428d8D",
+          "function": "setGlobalLiquidity(uint256)"
+        }
+      ]
+}

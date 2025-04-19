@@ -1,0 +1,86 @@
+{
+        "decimal": {
+                "mainnet": {
+                        "tokenAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "chain": "bsc",
+                        "rpcUrl": "https://bsc-dataseed1.binance.org/"
+                },
+                "testnet": {
+                        "tokenAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "jobManagerContractAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "chain": "berachain",
+                        "rpcUrl": "https://rpc.ankr.com/berachain_testnet"
+                }
+        },
+        "testnets": [
+                {
+                        "rpcUrl": "https://rpc.ankr.com/berachain_testnet",
+                        "jobManagerContractAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "tokenAddress": "0x867842f5edC5338EDb3FEfE435e2a69F69cf7856",
+                        "chain": "berachain"
+                },
+                {
+                        "rpcUrl": "https://bsc-testnet-rpc.publicnode.com",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "tokenAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                        "chain": "bsc"
+                },
+                {
+                        "rpcUrl": "https://api.avax-test.network/ext/bc/C/rpc",
+                        "jobManagerContractAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "tokenAddress": "0x867842f5edC5338EDb3FEfE435e2a69F69cf7856",
+                        "chain": "avax"
+                },
+                {
+                        "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "tokenAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                        "chain": "arb"
+                },
+                {
+                        "rpcUrl": "https://rpc-amoy.polygon.technology",
+                        "jobManagerContractAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "tokenAddress": "0x867842f5edC5338EDb3FEfE435e2a69F69cf7856",
+                        "chain": "polygon"
+                },
+                {
+                        "rpcUrl": "https://rpc.test.btcs.network",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "tokenAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                        "chain": "core"
+                }
+        ],
+        "mainnets": [
+                {
+                        "rpcUrl": "https://bsc-dataseed1.binance.org/",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "tokenAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                        "chain": "bsc"
+                },
+                {
+                        "rpcUrl": "https://api.avax.network/ext/bc/C/rpc",
+                        "jobManagerContractAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "tokenAddress": "0x867842f5edC5338EDb3FEfE435e2a69F69cf7856",
+                        "chain": "avax"
+                },
+                {
+                        "rpcUrl": "https://arb1.arbitrum.io/rpc",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "tokenAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                        "chain": "arb"
+                },
+                {
+                        "rpcUrl": "https://rpc.ankr.com/berachain_testnet",
+                        "jobManagerContractAddress": "0x31134a1559b06ecc1197ecca3643570D29C9f5eA",
+                        "tokenAddress": "0x867842f5edC5338EDb3FEfE435e2a69F69cf7856",
+                        "chain": "polygon"
+                },
+                {
+                        "rpcUrl": "https://rpc.coredao.org/",
+                        "jobManagerContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+                        "tokenAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                        "chain": "core"
+                }
+        ]
+}
